@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-sagemaker" %}
-{% set version = "0.47.0" %}
+{% set version = "0.47.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_sagemaker-{{ version }}.tar.gz
-  sha256: 7c014a54b3a72fcc1ec71047dd7972df7f91a5bd21e045d3379001ce5c6d5351
+  sha256: 5848b7ea5ac0091c64980454458b2c4a79208f4e9e49ad4e0902821bcd5849e3
 
 build:
   noarch: python
