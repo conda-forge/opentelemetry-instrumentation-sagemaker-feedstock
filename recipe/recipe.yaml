@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: opentelemetry-instrumentation-sagemaker
-  version: "0.62.4"
+  version: "0.63.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/opentelemetry_instrumentation_sagemaker-${{ version }}.tar.gz
-  sha256: 41e4208d3335eac33901766ce548593cad843517de79443c0b3280d1d963a08e
+  sha256: 968da17bd995a6ce466df33714db5699431cb6e12bc5cb8791abf1395bb295f3
 
 build:
   number: 0
